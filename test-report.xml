@@ -1,6 +1,0 @@
-<testExecutions version="1">
-<file path="src/__tests__/Calculator.test.ts">
-<testCase name="Calculator should sum" duration="1" />
-<testCase name="Calculator should sub" duration="1" />
-</file>
-</testExecutions>
