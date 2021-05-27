@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="./src/__tests__/Calculator.test.ts">
+    <testCase name="Calculator should sum" duration="2"/>
+    <testCase name="Calculator should sub" duration="0"/>
+    <testCase name="Calculator testing failure" duration="2">
+      <failure message="Error: expect(received).toBe(expected) // Object.is equality"><![CDATA[Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 1
+Received: -1
+    at Object.<anonymous> (/Users/sergey/Work/EXP/jest-example/src/__tests__/Calculator.test.ts:15:27)
+    at Promise.then.completed (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:316:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/utils.js:241:10)
+    at _callCircusTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at _runTest (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:60:9)
+    at run (/usr/local/lib/node_modules/jest/node_modules/jest-circus/build/run.js:25:3)]]></failure>
+    </testCase>
+  </file>
+</testExecutions>

@@ -10,4 +10,8 @@ describe("Calculator", () => {
     let cal = new Calculator();
     expect(cal.sub(5, 6)).toBe(-1);
   });
+  it("testing failure", () => {
+    let cal = new Calculator();
+    expect(cal.sub(5, 6)).toBe(1);
+  });
 });
