@@ -1,0 +1,25 @@
+{
+  "name": "jest-example",
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "type": "module",
+  "jest": {
+    "coverageDirectory": "./.coverage",
+    "extensionsToTreatAsEsm": [
+      ".ts"
+    ],
+    "reporters": ["default",[
+      "jest-sonar", {
+      "outputDirectory": "./",
+      "reportedFilePath": "relative"
+    }]],
+    "transform": {
+      ".ts": "@relcu/jest"
+    }
+  },
+  "scripts": {
+    "test": "jest --coverage"
+  }
+}
